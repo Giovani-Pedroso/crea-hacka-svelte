@@ -9,7 +9,7 @@
 <Navbar bind:showMenu={showMenu} />
   <div class="flex flex-row">
     {#if showMenu}
-    <Menu/>
+    <Menu bind:showMenu={showMenu}/>
     {/if}
     <slot />
   </div>

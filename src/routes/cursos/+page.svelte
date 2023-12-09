@@ -25,7 +25,7 @@
       <tbody>
         {#each cursos as curso}
           <tr>
-            <td><a href="detalhes-curso">{curso.name}</a></td>
+            <td><a class="link link-primary" href="detalhes-curso">{curso.name}</a></td>
             <td>{curso.qtd}</td>
           </tr>
         {/each}

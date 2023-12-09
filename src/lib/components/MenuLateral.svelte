@@ -1,4 +1,5 @@
 <script>
+
  const links = [
   {name:"Institucional", cats:[{name:'Cadastro geral', link:"/regis"}
                               ,{name:'Administadores', link:"#"},
@@ -10,6 +11,10 @@
                   },
  ]
 
+  export let showMenu
+  const toggle = () =>{
+    showMenu = ! showMenu
+  }
 </script>
 
 <div class="bg-primary text-secondary fixed w-screen z-20">
@@ -21,7 +26,7 @@
       </div>
       <div class="collapse-content flex flex-col"> 
         {#each link.cats as cat}
-          <a class="link link-secondary"   href={cat.link}>{cat.name}</a>
+          <a on:click={toggle} class="link link-secondary"   href={cat.link}>{cat.name}</a>
         {/each}
       </div>
     </div> 
