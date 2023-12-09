@@ -30,7 +30,7 @@
     cnpj:'60.967.551/0001-71',
     email:'milton.moura@mackenzie.org.br',
     telefone:'(11)3333-8000',
-    status:'Em analise'},
+    status:'Em análise'},
     {
     nome: 'Campus Higienópolis',
     cnpj: '60.967.551/0001-92',

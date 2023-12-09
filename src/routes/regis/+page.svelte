@@ -1,8 +1,8 @@
 <script>
   import Input from "$lib/components/ui/input.svelte"
   const digitarCampos = ['Mantenedora', 'CNPJ', 'Representante legal',
-    'CNPJ campus', 'Node da instituição', 'Codigo Instituição',
-    'Situaçoao','Endereço','Numero','Complemento','Bairro', 'Municipio',
+    'CNPJ campus', 'Nome da instituição', 'Código Instituição',
+    'Situação','Endereço','Número','Complemento','Bairro', 'Munícipio',
     'Telefone', 'Org Academia', 'Site', 'Email', "Categoria",'Tipo de credenciamento'] 
 </script>
 

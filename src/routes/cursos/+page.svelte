@@ -1,12 +1,12 @@
 <script>
   let cursos = [
-    {name:"Agronogia", qtd:3},
-    {name:"Agronogia", qtd:3},
-    {name:"Agronogia", qtd:3},
-    {name:"Agronogia", qtd:3},
-    {name:"Agronogia", qtd:3},
-    {name:"Agronogia", qtd:3},
-    {name:"Agronogia", qtd:3},
+    {name:"Agronomia", qtd:3},
+    {name:"Agronomia", qtd:3},
+    {name:"Agronomia", qtd:3},
+    {name:"Agronomia", qtd:3},
+    {name:"Agronomia", qtd:3},
+    {name:"Agronomia", qtd:3},
+    {name:"Agronomia", qtd:3},
   ]
 </script>
 

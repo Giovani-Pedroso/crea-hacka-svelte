@@ -1,6 +1,6 @@
 <script>
   let turmas = [
-    {turma:"Agronogia", Curso:3, ano:2009, periodo:'noite',colacao:'04/2002',
+    {turma:"Agronomia", Curso:3, ano:2009, periodo:'noite',colacao:'04/2002',
     'nome':'João',
     'cpf':'888.999.777.22',
     grau:'bacharelado',status:'pendente'},
