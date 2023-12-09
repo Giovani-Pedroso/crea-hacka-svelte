@@ -15,7 +15,9 @@
       <input type="text" placeholder="email" class=" mb-4 input input-bordered input-primary w-full max-w-xs" />
       <input type="password" placeholder="senha" class=" mb-4 input input-bordered input-primary w-full max-w-xs" />
       <div class="flex">
-        <button class=" flex justify-end btn btn-active btn-primary mr-4 rounded-full">Entrar</button>
+        <button class=" flex justify-end btn btn-active btn-primary mr-4 rounded-full">
+          <a href="/dashboard">Entrar</a>
+        </button>
         <button class=" flex justify-end btn btn-active btn-primary rounded-full">Acessar com gov.br</button>
       </div>
       <a href="#" class="link link-primary mt-2">recuperar senha</a>

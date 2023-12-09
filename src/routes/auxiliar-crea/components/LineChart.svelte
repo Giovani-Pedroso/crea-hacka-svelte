@@ -1,5 +1,6 @@
 <script>
   import { line, curveLinear, Delaunay, range, scaleLinear, scaleUtc } from 'd3';
+  import Dount from "$lib/components/ui/Dount.svelte"
   import data from './line-data.js';
   
   const marginTop = 40; // the top margin, in pixels
@@ -10,7 +11,7 @@
   const width = 600; // the outer width of the chart, in pixels
   const height = 350; // the outer height of the chart, in pixels
   const xLabel = ''; // a label for the y-axis
-  const yLabel = '↑ Population (in millions)'; // a label for the y-axis
+  const yLabel = 'Relatorios'; // a label for the y-axis
   const xFormat = ''; // a format specifier string for the y-axis
   const yFormat = 'm'; // a format specifier string for the y-axis
   const horizontalGrid = true; // show horizontal grid lines

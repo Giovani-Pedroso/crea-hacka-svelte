@@ -1,12 +1,12 @@
 <script>
  const links = [
-  {name:"Institucional", cats:[{name:'Cadastro geral', link:"#"}
+  {name:"Institucional", cats:[{name:'Cadastro geral', link:"/regis"}
                               ,{name:'Administadores', link:"#"},
                               {name:'Campi', link:"/campi"}]},
   {name:"Cursos", cats:[{name:'Cadastro', link:"/cursos"},
                         {name:'Formandos', link:"/formandos"},
                         ]},
-  {name:" Atendimentos", cats:[{name:'Protocolos', link:"#"}],
+  {name:"Crea", cats:[{name:'Auxiliares', link:"auxiliar-crea"}],
                   },
  ]
 
