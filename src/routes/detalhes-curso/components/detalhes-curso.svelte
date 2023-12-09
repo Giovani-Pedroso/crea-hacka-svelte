@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex flex-col  w-full">
-  <h1 class="text-4xl mp-2 text-center">Inscrição de mantenedora</h1>
+  <h1 class="text-4xl mp-2 text-center">Inscrição do curso</h1>
   <h2 class="text-blue-400 text-center my-4 text-[24px]">Status: Em analise</h2>
   <div class="w-full px-2 md:px-[100px]">
     <form>
