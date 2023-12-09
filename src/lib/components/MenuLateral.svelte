@@ -1,19 +1,18 @@
 <script>
  const links = [
-  {name:"Institucional", cats:[{name:'Cadastor geral', link:"$"}
-                              ,{name:'Administadores', link:"$"},
+  {name:"Institucional", cats:[{name:'Cadastro geral', link:"#"}
+                              ,{name:'Administadores', link:"#"},
                               {name:'Campi', link:"$"}]},
-  {name:"Cursos", cats:[{name:'Ver cursos', link:"./cursos"},
-                        {name:'Ver cursos', link:"$"},
-                        {name:'Ver cursos', link:"$"}]},
-  {name:"Formandos(as)", cats:[{name:'Ver cursos', link:"$"},
-                              {name:'Ver cursos', link:"$"},
-                              {name:'Ver cursos', link:"$"},]},
+  {name:"Cursos", cats:[{name:'Cadastro', link:"./cursos"},
+                        {name:'Formandos', link:"./formandos"},
+                        ]},
+  {name:" Atendimentos", cats:[{name:'Protocolos', link:"#"}],
+                  },
  ]
 
 </script>
 
-<div class="bg-primary text-secondary ">
+<div class="bg-primary text-secondary fixed w-screen z-20">
   {#each links as link }
     <div class="collapse collapse-arrow  ">
       <input type="radio" name="my-accordion-2" checked="checked" /> 

@@ -1,5 +1,6 @@
 
 export default [
-	{ ages: 'Agurdado', count: 30 },
-	{ ages: 'Aprovado', count: 70 }
+	{ ages: 'Agurdado Crea', count: 30 },
+	{ ages: 'Aprovado', count: 100 },
+	{ ages: 'IES pendente', count: 20 } 
 ];

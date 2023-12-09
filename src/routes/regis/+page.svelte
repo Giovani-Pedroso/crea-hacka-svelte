@@ -4,8 +4,6 @@
     'CNPJ campus', 'Node da instituição', 'Codigo Instituição',
     'Situaçoao','Endereço','Numero','Complemento','Bairro', 'Municipio',
     'Telefone', 'Org Academia', 'Site', 'Email', "Categoria",'Tipo de credenciamento'] 
-
-
 </script>
 
 <div class="flex flex-col  w-full">

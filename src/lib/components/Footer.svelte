@@ -1,7 +1,7 @@
 <script>
  import logo from "$lib/static/selo.png"
 </script>
-<footer class="footer p-10 bg-primary text-secondary">
+<footer class="footer p-10 bg-[#d9d9d9] text-[#191011] ">
 
 
   <aside>

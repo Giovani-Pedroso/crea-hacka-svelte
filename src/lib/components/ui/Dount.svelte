@@ -2,7 +2,7 @@
   import { quantize, interpolatePlasma, pie, arc } from 'd3';
   import data from './donut-data.js' // or pass data to component as prop
   
-  const width = 500 // the outer width of the chart, in pixels
+  const width = 460 // the outer width of the chart, in pixels
   const height = width // the outer height of the chart, in pixels
   const percent = true // format values as percentages (true/false)
   const fontSize = 10; // the font size of the x and y values
@@ -28,7 +28,7 @@
   const iVals = data.map((el, i) => i);
 
   // colors can be adjusted manually by creating a color array which length matches length of data set.
-  let colors = ["#ff0000", "#00ff00"];
+  let colors = ["#ffb700", "#b9e86c","#ba352d"];
   // if (!colors) colors = quantize(t => interpolatePlasma(t * 0.7 + 0.3), xVals.length);
 
   const wedges = pie().
