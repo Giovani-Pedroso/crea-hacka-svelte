@@ -1,8 +1,14 @@
 <script>
  const links = [
-  {name:"Institucional", cats:['Cadastor geral','Administadores','Campi']},
-  {name:"Cursos", cats:['at','ts','ta']},
-  {name:"Formandos(as)", cats:['at','ts','ta']},
+  {name:"Institucional", cats:[{name:'Cadastor geral', link:"$"}
+                              ,{name:'Administadores', link:"$"},
+                              {name:'Campi', link:"$"}]},
+  {name:"Cursos", cats:[{name:'Ver cursos', link:"./cursos"},
+                        {name:'Ver cursos', link:"$"},
+                        {name:'Ver cursos', link:"$"}]},
+  {name:"Formandos(as)", cats:[{name:'Ver cursos', link:"$"},
+                              {name:'Ver cursos', link:"$"},
+                              {name:'Ver cursos', link:"$"},]},
  ]
 
 </script>
@@ -16,7 +22,7 @@
       </div>
       <div class="collapse-content flex flex-col"> 
         {#each link.cats as cat}
-          <a href="#">{cat}</a>
+          <a class="link link-secondary"   href={cat.link}>{cat.name}</a>
         {/each}
       </div>
     </div> 

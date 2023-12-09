@@ -31,7 +31,7 @@
       <TabEstrutura data={dataCurricular}/>
     </div>
 
-    <input type="radio" name="my_tabs_2" role="tab" class="tab w-full" aria-label="Atas regulatorias" checked />
+    <input type="radio" name="my_tabs_2" role="tab" class="tab w-full" aria-label="Atos regulatórios" checked />
     <div role="tabpanel" class="tab-content    p-6">
       <TabelaAtas data={dataAtas}/>
     </div>

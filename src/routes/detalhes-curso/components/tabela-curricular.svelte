@@ -27,4 +27,7 @@
   </table>
 </div>
 
-
+<div class="flex w-full justify-between mt-8">
+  <button class="btn  btn-info">Editar entrada</button>
+  <button class="btn  btn-success">Adicionar entrada</button>
+</div>

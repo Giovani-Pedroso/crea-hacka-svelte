@@ -3,11 +3,14 @@
   import Navbar from "$lib/components/Navbar.svelte"
   import Footer from "$lib/components/Footer.svelte"
   import Menu from "$lib/components/MenuLateral.svelte"
+  let showMenu = false
 </script>
 
-<Navbar />
+<Navbar bind:showMenu={showMenu} />
   <div class="flex flex-row">
-    <!-- <Menu/> -->
+    {#if showMenu}
+    <Menu/>
+    {/if}
     <slot />
   </div>
 <Footer/>
