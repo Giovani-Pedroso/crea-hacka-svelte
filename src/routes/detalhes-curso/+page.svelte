@@ -21,21 +21,20 @@
 </script>
 <div class="w-full ">
   <div role="tablist" class="tabs tabs-lifted ">
-    <input type="radio" name="my_tabs_2" role="tab" class="tab w-full" aria-label="Detalhes curso" checked />
+    <input type="radio" name="my_tabs_2" role="tab" class="tab " aria-label="Detalhes curso" checked />
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <Detalhes/>
     </div>
 
-    <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Estrutura curricular "/>
-    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+    <input type="radio" name="my_tabs_2" role="tab" class="tab " aria-label="Estrutura curricular "/>
+    <div role="tabpanel" class="tab-content w-screen bg-base-100 border-base-300 rounded-box p-6">
       <TabEstrutura data={dataCurricular}/>
     </div>
 
-    <input type="radio" name="my_tabs_2" role="tab" class="tab w-full" aria-label="Atos regulatórios" checked />
-    <div role="tabpanel" class="tab-content    p-6">
+    <input type="radio" name="my_tabs_2" role="tab" class="tab " aria-label="Atos regulatórios"/>
+    <div role="tabpanel" class="tab-content w-screen   p-6">
       <TabelaAtas data={dataAtas}/>
     </div>
-
   </div>
 </div>
 

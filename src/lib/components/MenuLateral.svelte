@@ -2,9 +2,9 @@
  const links = [
   {name:"Institucional", cats:[{name:'Cadastro geral', link:"#"}
                               ,{name:'Administadores', link:"#"},
-                              {name:'Campi', link:"$"}]},
-  {name:"Cursos", cats:[{name:'Cadastro', link:"./cursos"},
-                        {name:'Formandos', link:"./formandos"},
+                              {name:'Campi', link:"/campi"}]},
+  {name:"Cursos", cats:[{name:'Cadastro', link:"/cursos"},
+                        {name:'Formandos', link:"/formandos"},
                         ]},
   {name:" Atendimentos", cats:[{name:'Protocolos', link:"#"}],
                   },

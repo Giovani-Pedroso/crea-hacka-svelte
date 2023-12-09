@@ -67,7 +67,7 @@
       {#each rows as row}
         <tr class="bg-[#cdd6ff]">
           <td>{row.codCurso}</td>
-          <td><a href='/' class="link link-primary">{row.nameCurso}</a></td>
+          <td><a href='/detalhes-curso' class="link link-primary">{row.nameCurso}</a></td>
           <td>{row.grau}</td>
           <td>{row.municipio}</td>
           <td>{row.campus}</td>
